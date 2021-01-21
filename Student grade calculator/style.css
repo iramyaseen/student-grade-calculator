@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: rgb(48, 77, 48);
+} */
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+     max-width: 960px;
+    }
+  }
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+} 
+.links-wrapper {
+    display: flex;
+      padding: 15px 0;
+  }
+  
+@media (max-width: 1024px) {
+      .links-wrapper {
+          flex-wrap: wrap;
+      }
+}
+.heading1{
+    margin-left: 36%;
+    text-transform: none;
+}
+h3{
+    color: rgb(48, 77, 48);
+    border: 2px solid rgb(48, 77, 48);
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    font-size: 30px;
+}
+.main{
+    margin-top: 100px;
+    width: 80%;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 10px 10px;
+    box-shadow:10px 10px 10px 5px  #cecece;
+    /* background-color:rgb(119, 119, 119); */
+}
+span{
+    display: block;
+}
+h1{
+    color: rgb(48, 77, 48);
+    border: 2px solid rgb(48, 77, 48);
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 150px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    text-transform: uppercase;
+}
+.input_field_one, .input_field_two, .input_field_three, .input_field_four{
+    outline: none;
+    border: 2px solid lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    color: rgb(199, 198, 198);
+    font-weight: 800;
+    font-size: 15px;
+}
+.main_input{
+    margin-top: 50px;
+}
+h2{
+    color: rgb(48, 77, 48);
+    text-transform: uppercase;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+button{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: rgb(48, 77, 48); 
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.showData{
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+    color: gray;
+}
